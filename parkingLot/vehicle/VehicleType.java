@@ -1,5 +1,7 @@
 package parkingLot.vehicle;
 
-public class VehicleType {
-    
+public enum VehicleType {
+    TRUCK,
+    CAR,
+    BIKE
 }
