@@ -40,7 +40,12 @@ public class Level {
             }
         }
     }
-
+    public int getFloor() {
+        return floor;
+    }
+    public List<ParkingSpot> getParkingspots() {
+        return parkingspots;
+    }
     public synchronized void unParkVehicle(Vehicle vehicle){
         for (ParkingSpot parkingSpot : parkingspots) {
             if(parkingSpot.getParkedVehicle()==vehicle) parkingSpot.unParkVehicle();
