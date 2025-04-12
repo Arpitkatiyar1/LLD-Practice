@@ -40,7 +40,6 @@ public class Level {
             }
         }
     }
-
     public int getFloor() {
         return floor;
     }
