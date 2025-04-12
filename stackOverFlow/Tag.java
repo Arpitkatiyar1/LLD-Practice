@@ -11,7 +11,4 @@ public class Tag {
     public synchronized int getId(){
         return this.id;
     }
-    public synchronized String getName(){
-        return this.name;
-    }
 }
