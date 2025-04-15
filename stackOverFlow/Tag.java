@@ -4,11 +4,17 @@ public class Tag {
     private int id;
     private String name;
 
-    Tag(int id, String name){
-        this.id=id;
+    Tag(String name){
+        this.id=this.generateId();
         this.name=name;
     }
-    public synchronized int getId(){
+    private int generateId() {
+        return (int) (System.currentTimeMillis() % Integer.MAX_VALUE);
+	}
+	public synchronized int getId(){
         return this.id;
+    }
+    public String getTag(){
+        return this.name;
     }
 }
