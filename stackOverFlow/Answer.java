@@ -28,9 +28,13 @@ public class Answer implements Commentable, Votable{
         isAccepted = false;        
     }
     
-	private int generateId() {
+    private int generateId() {
         return (int) (System.currentTimeMillis() % Integer.MAX_VALUE);
-	}
+    }
+
+    public void acceptAnswer() {
+        this.isAccepted = true;
+    }
 
 	@Override
 	public void updateVote(Vote vote) {

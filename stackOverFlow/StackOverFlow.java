@@ -34,10 +34,14 @@ public class StackOverFlow {
         return question;
     }
 
-    public Answer answerQuestion(User author, String content,Question question) {
-        Answer answer=author.answerQuestion(author, content, question);
+    public Answer answerQuestion(User author, String content, Question question) {
+        Answer answer = author.answerQuestion(author, content, question);
         answers.put(answers.size() + 1, answer);
         return answer;
+    }
+
+    public void acceptAnswer(Answer answer) {
+        answer.acceptAnswer();
     }
 
     public Comment addComment(User author, Commentable commentable, String content) {
