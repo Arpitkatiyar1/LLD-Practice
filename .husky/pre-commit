@@ -1,0 +1,2 @@
+find parkingLot -name "*.java" -print0 | xargs -0 javac
+find stackOverFlow -name "*.java" -print0 | xargs -0 javac
