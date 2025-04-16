@@ -1,2 +1,2 @@
-find parking_lot -name "*.java" -print0 | xargs -0 javac
-find stackoverFlow -name "*.java" -print0 | xargs -0 javac
+find parkingLot -name "*.java" -print0 | xargs -0 javac
+find stackOverFlow -name "*.java" -print0 | xargs -0 javac
