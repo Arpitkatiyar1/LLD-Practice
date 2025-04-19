@@ -1,8 +1,8 @@
-package stackOverFlow.interfaces;
+package app.src.main.java.lld_practice.stackOverFlow.interfaces;
 
 import java.util.List;
 
-import stackOverFlow.Comment;
+import app.src.main.java.lld_practice.stackOverFlow.Comment;
 
 public interface Commentable {
 List<Comment> getComments();

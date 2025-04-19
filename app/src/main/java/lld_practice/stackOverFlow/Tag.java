@@ -1,4 +1,4 @@
-package stackOverFlow;
+package app.src.main.java.lld_practice.stackOverFlow;
 
 public class Tag {
     private int id;

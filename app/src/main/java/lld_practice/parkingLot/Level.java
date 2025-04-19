@@ -1,10 +1,10 @@
-package parkingLot;
+package app.src.main.java.lld_practice.parkingLot;
 
 import java.util.ArrayList;
 import java.util.List;
 
-import parkingLot.vehicle.Vehicle;
-import parkingLot.vehicle.VehicleType;
+import app.src.main.java.lld_practice.parkingLot.vehicle.Vehicle;
+import app.src.main.java.lld_practice.parkingLot.vehicle.VehicleType;
 
 public class Level {
     private final int floor;
