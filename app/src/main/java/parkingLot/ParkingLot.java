@@ -1,9 +1,9 @@
-package app.src.main.java.lld_practice.parkingLot;
+package app.src.main.java.parkingLot;
 
 import java.util.ArrayList;
 import java.util.List;
 
-import app.src.main.java.lld_practice.parkingLot.vehicle.Vehicle;
+import app.src.main.java.parkingLot.vehicle.Vehicle;
 
 public class ParkingLot {
     private final List<Level> levels;

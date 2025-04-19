@@ -34,7 +34,7 @@ java {
 
 application {
     // Define the main class for the application.
-    mainClass = "lld_practice.App"
+    mainClass = "app.src.main.java.App"
 }
 
 tasks.named<Test>("test") {

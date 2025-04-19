@@ -1,4 +1,4 @@
-package app.src.main.java.lld_practice.stackOverFlow;
+package app.src.main.java.stackOverFlow;
 
 public class Vote {
     private final User user;

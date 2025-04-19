@@ -1,4 +1,4 @@
-package app.src.main.java.lld_practice.parkingLot.vehicle;
+package app.src.main.java.parkingLot.vehicle;
 
 public class Truck extends Vehicle{
     public Truck(String licensePlate) {

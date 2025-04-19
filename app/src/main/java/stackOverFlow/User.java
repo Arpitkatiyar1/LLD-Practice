@@ -1,10 +1,10 @@
-package app.src.main.java.lld_practice.stackOverFlow;
+package app.src.main.java.stackOverFlow;
 
 import java.util.ArrayList;
 import java.util.List;
 
-import app.src.main.java.lld_practice.stackOverFlow.interfaces.Commentable;
-import app.src.main.java.lld_practice.stackOverFlow.interfaces.Votable;
+import app.src.main.java.stackOverFlow.interfaces.Commentable;
+import app.src.main.java.stackOverFlow.interfaces.Votable;
 
 public class User {
     private final int id;
