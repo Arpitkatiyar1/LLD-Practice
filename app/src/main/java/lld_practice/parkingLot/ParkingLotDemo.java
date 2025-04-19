@@ -1,9 +1,9 @@
-package parkingLot;
+package app.src.main.java.lld_practice.parkingLot;
 
-import parkingLot.vehicle.Bike;
-import parkingLot.vehicle.Car;
-import parkingLot.vehicle.Truck;
-import parkingLot.vehicle.Vehicle;
+import app.src.main.java.lld_practice.parkingLot.vehicle.Bike;
+import app.src.main.java.lld_practice.parkingLot.vehicle.Car;
+import app.src.main.java.lld_practice.parkingLot.vehicle.Truck;
+import app.src.main.java.lld_practice.parkingLot.vehicle.Vehicle;
 
 public class ParkingLotDemo {
     public static void main(String[] args) {

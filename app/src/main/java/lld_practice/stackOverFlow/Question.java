@@ -1,11 +1,11 @@
-package stackOverFlow;
+package app.src.main.java.lld_practice.stackOverFlow;
 
 import java.util.ArrayList;
 import java.util.Date;
 import java.util.List;
 
-import stackOverFlow.interfaces.Commentable;
-import stackOverFlow.interfaces.Votable;
+import app.src.main.java.lld_practice.stackOverFlow.interfaces.Commentable;
+import app.src.main.java.lld_practice.stackOverFlow.interfaces.Votable;
 
 public class Question implements Commentable, Votable{
     private final int uniqueId;
