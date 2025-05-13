@@ -1,4 +1,4 @@
-package app.src.main.java.parkingLot.vehicle;
+package parkingLot.vehicle;
 
 public class Bike extends Vehicle{
     public Bike(String licensePlate) {

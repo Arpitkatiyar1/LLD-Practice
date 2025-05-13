@@ -1,4 +1,4 @@
-package app.src.main.java.stackOverFlow;
+package stackOverFlow;
 
 public class Tag {
     private int id;
