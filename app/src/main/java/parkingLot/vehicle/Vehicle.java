@@ -1,4 +1,4 @@
-package app.src.main.java.parkingLot.vehicle;
+package parkingLot.vehicle;
 
 public class Vehicle {
     protected String licensePlate;

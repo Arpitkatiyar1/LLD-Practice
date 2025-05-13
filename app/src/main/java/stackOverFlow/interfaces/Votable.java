@@ -1,6 +1,6 @@
-package app.src.main.java.stackOverFlow.interfaces;
+package stackOverFlow.interfaces;
 
-import app.src.main.java.stackOverFlow.Vote;
+import stackOverFlow.Vote;
 
 public interface Votable {
     void updateVote(Vote vote);

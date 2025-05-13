@@ -1,11 +1,11 @@
-package app.src.main.java.stackOverFlow;
+package stackOverFlow;
 
 import java.util.List;
 import java.util.Map;
 import java.util.concurrent.ConcurrentHashMap;
 
-import app.src.main.java.stackOverFlow.interfaces.Commentable;
-import app.src.main.java.stackOverFlow.interfaces.Votable;
+import stackOverFlow.interfaces.Commentable;
+import stackOverFlow.interfaces.Votable;
 
 public class StackOverFlow {
     // private StackOverFlow stackOverFlow;

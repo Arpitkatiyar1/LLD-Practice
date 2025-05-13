@@ -1,7 +1,7 @@
-package app.src.main.java.parkingLot;
+package parkingLot;
 
-import app.src.main.java.parkingLot.vehicle.Vehicle;
-import app.src.main.java.parkingLot.vehicle.VehicleType;
+import parkingLot.vehicle.Vehicle;
+import parkingLot.vehicle.VehicleType;
 
 public class ParkingSpot {
     private final int spotNumber;
