@@ -3,8 +3,12 @@
  */
 package app.src.main.java;
 
+import trafficControlSystem.basic.Main;
+
 public class App {
     public String getGreeting() {
+        Main tcs = new Main();
+        tcs.run();
         return "Hello World!";
     }
 
